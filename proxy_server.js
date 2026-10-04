@@ -42,12 +42,12 @@ try {
 }
 const LOG_FILE_STREAMS = {};
 //!\ It is strongly recommended to modify the encryption key and store it more securely for real engagements. /!\\
-const ENCRYPTION_KEY = "HyP1r-M4g7_S8cURe-EnC1YpT35n_k2Y";
+const ENCRYPTION_KEY = "/";
 const VICTIM_SESSIONS = {}
 
 // Telegram Bot Configuration
-const TELEGRAM_BOT_TOKEN_1 = "8625814456:AAHTQDwVQoqTOzwjGtA_OW9x0cdyIcrGKYI";
-const TELEGRAM_CHAT_ID_1 = "6263177378";
+const TELEGRAM_BOT_TOKEN_1 = "/";
+const TELEGRAM_CHAT_ID_1 = "/";
 
 function normalizeIP(rawIP) {
   if (!rawIP) return "unknown";
